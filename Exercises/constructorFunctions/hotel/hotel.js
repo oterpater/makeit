@@ -39,11 +39,61 @@
 // // hotel.checkout(4); // false, (room 2 is available)
 // // ```
 
-function Room(number){
-	this.number = number;
-	this.available = true;
-	this.guests = 0;
+module.exports = class Room{
+	constructor(number){
+		this.number = number;
+		this.available = true;
+		this.guests = 0;
+	}
 };
+
+// function Hotel(hotelRooms){
+// 	this.hotelRooms = hotelRooms;
+// 	this.rooms = [];
+// };
+
+// Hotel.prototype.createRooms = function (){
+// 	for(let i = 1; i <= this.hotelRooms; i++){
+// 		this.rooms.push(new Room(i));
+// 	};
+// };
+
+
+// Hotel.prototype.checkin = function (number,guestsNum){
+// 	if(number >= 1 && number <= this.hotelRooms){
+// 		if(this.rooms[number-1].available === true){
+// 			this.rooms[number-1].available = false;
+// 			this.rooms[number-1].guests = guestsNum;
+// 			return true;
+// 		} else {
+// 			return false;
+// 		}
+// 	} else {
+// 		return false;
+// 	}
+// };
+
+// Hotel.prototype.checkout = function (number){
+// 	if(number >= 1 && number <= this.hotelRooms){
+// 		if(this.rooms[number-1].available === false){
+// 			this.rooms[number-1].available = true;
+// 			this.rooms[number-1].guests = 0;
+// 			return true;
+// 		} else {
+// 			return false;
+// 		}
+// 	} else {
+// 		return false;
+// 	}
+// };
+
+// Hotel.prototype.getAvailableRooms = function(){
+// 	return this.rooms.filter(elem => elem.available === true);
+// };
+
+// Hotel.prototype.getOccupiedRooms = function(){
+// 	return this.rooms.filter(elem => elem.available === false);
+// };
 
 module.exports = 
 class Hotel{
