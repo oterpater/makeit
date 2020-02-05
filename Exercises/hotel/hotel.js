@@ -39,7 +39,7 @@
 // // hotel.checkout(4); // false, (room 2 is available)
 // // ```
 
-module.exports = class Room{
+class Room{
 	constructor(number){
 		this.number = number;
 		this.available = true;
@@ -95,7 +95,6 @@ module.exports = class Room{
 // 	return this.rooms.filter(elem => elem.available === false);
 // };
 
-module.exports = 
 class Hotel{
 	constructor(hotelRooms){
 		this.hotelRooms = hotelRooms;
@@ -145,6 +144,8 @@ class Hotel{
 	};
 
 };
+
+module.exports = {Room, Hotel};
 
 // const myHotel = new Hotel(2);
 // myHotel.createRooms()
