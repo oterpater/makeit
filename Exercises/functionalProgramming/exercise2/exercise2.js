@@ -39,6 +39,13 @@ const list = (cars) => {
     return result;
 };
 
+const bmwSum = () => {
+    const bmwCars = cars.filter(elem => elem.brand === 'BMW');
+    const bmwPrices = bmwCars.map(elem => elem.price);
+    const bmwPricesSum = bmwPrices.reduce((acc,cur) => acc + cur);
+    return bmwPricesSum;
+}; 
+
 const cars =
       [ { brand: 'Mazda', price: 5241, model: 1989 },
         { brand: 'Chevrolet', price: 4818, model: 1957 },
@@ -148,6 +155,8 @@ console.log("Nineties");
 console.log(nineties(cars));
 console.log("List");
 console.log(list(cars));
+console.log("BMW prices");
+console.log(bmwSum(cars));
 
 
 
