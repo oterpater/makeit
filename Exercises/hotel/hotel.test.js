@@ -9,20 +9,17 @@ describe("Hotel", () => {
 	
 	it("should create the correct number of rooms", () => {
 		const myHotel = new Hotel(2);
-		myHotel.createRooms();
 		expect(myHotel.rooms).toHaveLength(2);
 		expect(myHotel.rooms[0]).toBeInstanceOf(Room);
 	});
 
 	it("should do checkin correctly", () => {
 		const myHotel = new Hotel(2);
-		myHotel.createRooms();
 		expect(myHotel.checkin(1,3)).toBeThruty();
 	});
 
 	it("should do checkin correctly", () => {
 		const myHotel = new Hotel(2);
-		myHotel.createRooms();
 		myHotel.checkin(1,3);
 		expect(myHotel.checkin(1,3)).toBeFalse();
 	});
