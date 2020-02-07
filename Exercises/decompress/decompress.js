@@ -7,10 +7,6 @@
 
 // Return the decompressed list.
 
- // nums = [1,2];
- // decompressRLElist([3,4]) = [4,4,4];
- //  decompressRLElist([2,5]) = [5,5];
-
 // Example 1:
 
 // Input: nums = [1,2,3,4]
