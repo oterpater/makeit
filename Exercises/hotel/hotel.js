@@ -99,13 +99,10 @@ class Hotel{
 	constructor(hotelRooms){
 		this.hotelRooms = hotelRooms;
 		this.rooms = [];
-	}
-
-	createRooms(){
 		for(let i = 1; i <= this.hotelRooms; i++){
 			this.rooms.push(new Room(i));
 		};
-	};
+	}
 
 	checkin(number,guestsNum = 1){
 		if(number > 0 && number <= this.hotelRooms){
@@ -147,19 +144,18 @@ class Hotel{
 
 module.exports = {Room, Hotel};
 
-// const myHotel = new Hotel(2);
-// myHotel.createRooms()
-// console.log(myHotel.rooms)
-// console.log(myHotel.checkin(1,3))
-// console.log(myHotel.rooms)
-// console.log(myHotel.checkout(1))
-// console.log(myHotel.rooms)
-// console.log(myHotel.checkin(2,3))
-// console.log(myHotel.rooms)
-// console.log("Disponibles")
-// console.log(myHotel.getAvailableRooms())
-// console.log("Ocupados")
-// console.log(myHotel.getOccupiedRooms())
+const myHotel = new Hotel(2);
+console.log(myHotel.rooms)
+console.log(myHotel.checkin(1,3))
+console.log(myHotel.rooms)
+console.log(myHotel.checkout(1))
+console.log(myHotel.rooms)
+console.log(myHotel.checkin(2,3))
+console.log(myHotel.rooms)
+console.log("Disponibles")
+console.log(myHotel.getAvailableRooms())
+console.log("Ocupados")
+console.log(myHotel.getOccupiedRooms())
 
 
 
