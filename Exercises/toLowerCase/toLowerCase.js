@@ -28,6 +28,5 @@ function toLowerCase(str){
 	return letters.join("");
 };
 
-// console.log(String.fromCharCode(70));
 console.log(toLowerCase("Hello"));
 console.log(toLowerCase("LOVELY"));
