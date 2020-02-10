@@ -5,23 +5,23 @@
 
 
 
-// // Ciclo
-// function printNumsBackwards(num){
-// 	for (let i = num; i >= 1; i--){
-// 		console.log(i);
-// 	};
-// };
+// Ciclo
+function printNumsBackwards(num){
+	for (let i = num; i >= 1; i--){
+		console.log(i);
+	};
+};
 
-// Recursivo
-// function printNumsBackwards(num) {
-// 	console.log(num);
-// 	if (num > 1){
-// 		return printNumsBackwards(num - 1);
-// 	}
-// };
+Recursivo
+function printNumsBackwards(num) {
+	console.log(num);
+	if (num > 1){
+		return printNumsBackwards(num - 1);
+	}
+};
 
-// printNumsBackwards(10); // prints 10 to 1
-// printNumsBackwards(500); // prints 500 to 1
+printNumsBackwards(10); // prints 10 to 1
+printNumsBackwards(500); // prints 500 to 1
 
 
 // Print Numbers
@@ -31,22 +31,22 @@
 
 
 //Ciclo
-// function printUpTo(num){
-// 	for(let i = 1; i <= num; i++){
-// 		console.log(i);
-// 	};
-// };
+function printNumbers(num){
+	for(let i = 1; i <= num; i++){
+		console.log(i);
+	};
+};
 
 //Recursivo
-function printUpTo(num){
+function printNumbers(num){
 	if (num >= 1){
-		printUpTo(num - 1);
+		printNumbers(num - 1);
 		console.log(num);
 	}
 };
 
-printUpTo(10); // prints 1 to 10
-printUpTo(500); // prints 1 to 500
+printNumbers(10); // prints 1 to 10
+printNumbers(500); // prints 1 to 500
 
 
 
