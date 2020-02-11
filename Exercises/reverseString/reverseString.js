@@ -16,7 +16,7 @@
 // Input: ["H","a","n","n","a","h"]
 // Output: ["h","a","n","n","a","H"]
 
-
+//Ciclo
 function reverseString(arr){
 	const result = []; 
 	for(let i = arr.length - 1; i >= 0; i--){
@@ -27,3 +27,17 @@ function reverseString(arr){
 };
 
 console.log(reverseString(["h","e","l","l","o"]));
+
+
+
+//Recursión
+
+function reverseString(string){
+  let len=string.length;
+  if(len<=0){
+  	return []
+  }
+  return string[len-1]+reverseString(string.slice(0,len-1))
+};
+
+console.log(reverseString("hello world"));
