@@ -5,10 +5,6 @@
 class Node{
 	constructor(value, ref){
 		this.value = value;
-		this.ref = undefined;
-	};
-
-
-
-	
+		this.ref = ref;
+	};	
 };
