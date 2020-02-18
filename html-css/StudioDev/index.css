@@ -1,0 +1,120 @@
+body {
+	background-color: #000000;
+}
+
+.banner {
+	opacity: 0.6;
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+}
+
+h1 {
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 0.8;
+	position: relative;
+	top: 200px;
+	font-size: 50px;
+}
+
+h2 {
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 0.8;
+	font-size: 20px;
+	position: relative;
+	top: 250px;
+}
+
+.header {	
+	width: 100%;
+	text-align: right;
+}
+
+.header	nav {	
+	display:inline-block;
+	text-align: left;
+	position: relative;
+	right: 200px;
+	padding: 10px;
+}
+
+.header	img {
+	position: relative;
+	right: 600px;
+	top: 5px;
+	width: 200px;
+}
+
+.header	a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.header	a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.header	a:hover {
+	color: #FFFFFF;
+	background-color: #FFFF00;
+	border-radius: 5px;
+	padding: 5px;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+.header	a:active {
+	color: #FFFFFF;
+	background-color: #FFFF00;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.line {
+	width: 100px;
+	height: 10px;
+	background-color: #FFFF00;
+	position: relative;
+	top: 205px;
+	left: 650px;
+}
+
+.box1 {
+	width: 100%;
+	height: 600px;
+	background-color: #FFFFFF;
+	position: relative;
+}
+
+h3 {
+	text-align: center;
+	color: #000000;
+	line-height: 0.8;
+	font-size: 40px;
+	position: relative;
+	top: 100px;
+}
+
+.center-services {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.service1, .service2, .service3 {
+	box-sizing: border-box;
+	width: 33.3%;
+	height: 100px;
+	display: inline-block;
+	padding: 5px;
+}

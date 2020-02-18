@@ -1,0 +1,112 @@
+body {
+	background-color: #E9EAEA;
+}
+
+header {
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 50px;
+	text-align: right;
+	padding-top: 15px;
+}
+
+.logo {
+	width: 15%;
+	float: left;
+	color: #9E9E9E;
+	font-size: 25px;
+	text-align: left;
+	padding-left: 20%;
+}
+
+nav {	
+	display:inline-block;
+	text-align: left;
+	position: relative;
+	right: 20%;
+	padding: 10px;
+}
+
+a:link {
+	color: #CFCFCF;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+a:visited {
+	color: #CFCFCF;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+a:hover {
+	color: #9E9E9E;
+	border-radius: 5px;
+	padding: 5px;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+a:active {
+	color: #9E9E9E;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+aside {
+	width: 15%;
+	height: 600px;
+	background: #FFFFFF;
+	display: inline-block;
+	position: relative;
+	top: 40px;
+	left: 20%;
+	border-radius:2%;
+}
+
+aside img {
+	border-radius: 50%;
+	width: 50%;
+	position: relative;
+	top: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container {
+	width: 40%;
+}
+
+.box {
+	width: 40%;
+	height: 200px;
+	background: #FFFFFF;
+	display: inline-block;
+	margin-top:40px;
+	margin-left:24%;
+	border-radius:2%;
+	vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
