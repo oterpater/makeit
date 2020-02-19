@@ -1,0 +1,404 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #B04632;
+}
+
+header {
+	width: 100%;
+	height: 50px;
+	background-color: #8F3827;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-box1 {
+	width: 33%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.header-box2 {
+	width: 33%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo {
+	width: 20%;
+	opacity: 0.6;
+}
+
+.header-box3 {
+	width: 33%;
+	height: 50px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.buttons {
+	width: 50%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.more-button {
+	width: 25%;
+	height: 85%;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 2px;
+	background-color: #C4766A;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.notifications-button {
+	width: 25%;
+	height: 85%;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 2px;
+	background-color: #C4766A;
+}
+
+.user-button {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 2px;
+	background-color: #DFE2E6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.configurations-button {
+	width: 25%;
+	height: 85%;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 2px;
+	background-color: #C4766A;
+}
+
+.home-button {
+	width: 8%;
+	height: 85%;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 2px;
+	background-color: #C4766A;
+}
+
+.boards-button {
+	width: 20%;
+	height: 85%;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 2px;
+	background-color: #C4766A;
+}
+
+.search {
+	width: 40%;
+	height: 85%;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 2px;
+	background-color: #C4766A;
+}
+
+.tools-banner {
+	width: 100%;
+	height: 50px;
+	background-color: #B04632;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;	
+}
+
+.tools {
+	width: 33%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-between;	
+
+}
+
+.others-buttons {
+	width: 33%;
+	height: 50px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.butler {
+	width: 15%;
+	height: 70%;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #C4766A;
+}
+
+.show-menu {
+	width: 20%;
+	height: 70%;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #C4766A;
+}
+
+.name {
+	width: 15%;
+	height: 70%;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.favorites-button {
+	width: 8%;
+	height: 70%;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 2px;
+	background-color: #C4766A;
+}
+
+.personal-button {
+	width: 15%;
+	height: 70%;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 2px;
+	background-color: #C4766A;
+}
+
+.private-button {
+	width: 15%;
+	height: 70%;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 2px;
+	background-color: #C4766A;
+}
+
+.invite-button {
+	width: 15%;
+	height: 70%;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 2px;
+	background-color: #C4766A;
+}
+
+h1 {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+h2 {
+	text-align: center;
+	color: #000000;
+	font-size: 24px;
+}
+
+.tasks {
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.to-do {
+	width: 400px;
+	height: 180px;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 5px;
+	background-color: #DFE2E6;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.in-progress {
+	width: 400px;
+	height: 270px;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 5px;
+	background-color: #DFE2E6;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.completed {
+	width: 400px;
+	height: 130px;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 5px;
+	background-color: #DFE2E6;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.empty-list{
+	width: 400px;
+	height: 90px;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 5px;
+	background-color: #DFE2E6;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.add-another-list {
+	width: 400px;
+	height: 35px;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 5px;
+	background-color: #C4766A;
+	display: flex;
+	align-items: center;
+}
+
+.list {
+	width: 95%;
+	height: 35px;
+	margin: 5px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.list-name {
+	width: 40%;
+	height: 35px;
+	margin: 5px;
+	text-align: left;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+}
+
+.points {
+	width: 20%;
+	height: 35px;
+	margin: 5px;
+	border-radius: 5px;
+	text-align: right;
+	display: flex;
+	align-items: center;
+}
+
+
+.task-name {
+	width: 95%;
+	height: 35px;
+	margin: 5px;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+}
+
+.add-another-card {
+	width: 95%;
+	height: 35px;
+	margin: 5px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+}
+
+p {
+	color: #FFFFFF;
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+.p-black {
+	color: #393837;
+	font-size: 16px;
+	margin-left: 10px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
