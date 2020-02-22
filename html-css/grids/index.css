@@ -1,0 +1,157 @@
+html {
+	font-family: 'Shadows Into Light';
+	margin: 30px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+	display: grid;
+	grid-template:	"p1 p1"
+					"p1 p1"
+					"p2 p3"
+					"p4 p5"
+					"p6 p7"
+					"p8 p9"
+					"p10 ."
+	;
+	grid-template-rows: 150px;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 30px;
+}
+
+@media screen and (min-width: 768px){
+	.container {
+		grid-template:	"p1 p1 p2"
+						"p1 p1 p3"
+						"p4 p5 p6"
+						"p7 p8 p9"
+						"p10 . ."
+		;
+		grid-template-columns: repeat(3,1fr);
+	}
+}
+
+@media screen and (min-width: 992px){
+	.container {
+		grid-template:	"p1 p1 p2 p3"
+						"p1 p1 p4 p5"
+						"p6 p7 p8 p9"
+						"p10 . . ."
+		;
+		grid-template-columns: repeat(4,1fr);
+	}
+}
+
+.photo1 {
+	grid-area: p1;
+}
+
+.photo2 {
+	grid-area: p2;
+}
+
+.photo3 {
+	grid-area: p3;
+}
+
+.photo4 {
+	grid-area: p4;
+}
+
+.photo5 {
+	grid-area: p5;
+}
+
+.photo6 {
+	grid-area: p6;
+}
+
+.photo7 {
+	grid-area: p7;
+}
+
+.photo8 {
+	grid-area: p8;
+}
+
+.photo9 {
+	grid-area: p9;
+}
+
+.photo10 {
+	grid-area: p10;
+}
+
+
+.style {
+	background-image: radial-gradient(#ffffff,#e5e5e2);
+	border-radius: 7px;
+	box-shadow: 5px 5px 10px #54544a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon {
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
