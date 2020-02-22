@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.semaforo {
+	width: 180px;
+	height: 400px;
+	background-color: #282A2A;
+	border-radius: 20px;
+	border: solid 5px #4A4C4C;
+	position: relative;
+	top: 100px;
+	left: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.red {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	border-radius: 50%;
+	animation: 5s red infinite;
+}
+
+@keyframes red{
+	0% {opacity: 1}
+	20% {opacity: 1}
+	40% {opacity: 1}
+	60% {opacity: .1}
+	80% {opacity: .1}
+	100% {opacity: .1}
+}
+
+.orange {
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	border-radius: 50%;
+	animation: 5s orange infinite;
+}
+
+@keyframes orange{
+	0% {opacity: .1}
+	20% {opacity: .1}
+	40% {opacity: 1}
+	60% {opacity: .1}
+	80% {opacity: .1}
+	100% {opacity: .1}
+}
+
+.green {
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	border-radius: 50%;
+	animation: 5s green infinite;
+}
+
+@keyframes green{
+	0% {opacity: .1}
+	20% {opacity: .1}
+	40% {opacity: .1}
+	60% {opacity: 1}
+	80% {opacity: 1}
+	100% {opacity: 1}
+}
