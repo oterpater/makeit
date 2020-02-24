@@ -86,7 +86,6 @@ a:active {
 
 .container-main {
 	width: 100%;
-	height: 4500px;
 	margin: auto;
 	display: flex;
 	flex-direction: column;
@@ -96,7 +95,6 @@ a:active {
 @media only screen and (min-width: 768px){
 	.container-main {
 		width: 80%;
-		height: 600px;
 		margin-top: 20px;
 	}
 }
@@ -105,12 +103,12 @@ a:active {
 	.container-main {
 		width: 60%;
 		flex-direction: row;
+		align-items: flex-start;
 	}
 }
 
 aside {
 	width: 90%;
-	height: 1500px;
 	background-color: #FFFFFF;
 	margin: 20px 10px 10px;
 	margin-left: 0;
@@ -129,7 +127,6 @@ aside {
 
 .articles {
 	width: 100%;
-	height: 4500px;
 	margin: 20px;
 	display: flex;
 	flex-direction: column;
@@ -140,7 +137,6 @@ aside {
 @media screen and (min-width: 992px){
 	.articles {
 		width: 70%;
-		height: 600px;
 		margin: 20px 10px 10px;
 	}
 }
@@ -195,6 +191,7 @@ aside img {
 .small {
 	color: #AEADAD;
 	font-size: 1rem;
+	text-transform: uppercase;
 	margin-top: 50px;
 }
 
