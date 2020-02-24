@@ -1,0 +1,10 @@
+// Write a Sass script that generates rules for the selectors  
+// .#{$big-cat}-picture, where $big-cat is one of 'cheetah', 'puma',  
+// 'jaguar', 'panther', 'tiger', 'leopard', and sets its padding to '3em'
+
+
+@each $big-cat in cheetah, puma, jaguar, panther, tiger, leopard {
+	.#{$big-cat}-picture {
+		padding: 3em;
+	}
+}
