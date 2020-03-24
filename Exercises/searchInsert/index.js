@@ -37,3 +37,24 @@ function searchInsert(array, num) {
 } 
 
 console.log(searchInsert([1,3,5,6], 0));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
